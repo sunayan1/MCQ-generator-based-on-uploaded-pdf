@@ -129,7 +129,7 @@ console.log(data.quiz);
 ## Project Structure
 
 ```
-├── index.js          # Main server file
+├── server.js          # Main server file
 ├── .env              # Environment variables (create this)
 ├── package.json      # Dependencies and scripts
 ├── README.md         # This file
