@@ -68,7 +68,7 @@ const analyze = async (req, res) => {
     ]);
 
     const responseText = result.response.text();
-    const questions = JSON.parse(responseText); // now it's a proper JS array
+    const questions = JSON.parse(responseText);
     res.status(200).json({ questions });
   } catch (error) {
     console.error(error);

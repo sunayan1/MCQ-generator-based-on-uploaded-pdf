@@ -11,7 +11,7 @@ router.post('/upload', multerUpload.single('file'), upload);
 router.post(
   '/analyze',
   (req, res, next) => {
-    console.log('analyze route hit'); // ← add this
+    console.log('analyze route hit');
     next();
   },
   analyze,
